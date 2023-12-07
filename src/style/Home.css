@@ -1,0 +1,289 @@
+.home-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 40px 60px;
+    background-color: #FFFFFF;
+}
+
+.home-info h4 {
+    color: #BCBCBC;
+    opacity: 0.7;
+    font-size: 14px;
+    letter-spacing: 0.3px;
+    margin-bottom: 3px;
+}
+
+.home-info h1 {
+    font-size: 36px;
+    line-height: 40px;
+    color: #0F0F0F;
+    font-weight: 500;
+    margin-bottom: 12px;
+    font-weight: 500 !important;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.home-info p {
+    color: #BCBCBC;
+    opacity: 0.7;
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+
+.home-img {
+    border-radius: 30px 0px 30px 0px;
+    box-shadow: 5px 5px 15px rgba(201, 114, 105, 0.308);
+}
+
+.home-img img {
+    /* width: 224px;
+    height: 224px; */
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(90deg, #3C58E3 -15%, #C2EBFF 58%, #5AB5E2 97%);
+    border-radius: 30px 0 30px 0;
+    flex: none;
+    /* height: 71%;
+    width: 60%; */
+}
+
+.single-div {
+    background-color: #FFFFFF;
+    padding: 10px;
+}
+
+.single-div span {
+    color: #807272;
+    opacity: 0.7;
+    font-size: 14px;
+    letter-spacing: 0.3px;
+    margin-bottom: 3px;
+}
+
+.single-div span b {
+    font-size: 14px;
+    color: rgba(11, 11, 236, 0.877);
+}
+
+.icon-btn {
+    float: right;
+    opacity: 0.3;
+    cursor: pointer;
+}
+
+.home-card:hover .icon-btn {
+    opacity: 1;
+}
+
+.flex-div.flex-info img {
+    width: 100%;
+    height: 100%;
+}
+
+.flex-info {
+    background-color: #FFFFFF;
+    padding: 10px;
+    padding: 10px 17px;
+}
+
+.flex-info h4 {
+    font-size: 24px;
+    color: #0F0F0F;
+    font-weight: 500;
+}
+
+.home-info p {
+    opacity: 1 !important;
+}
+
+p {
+    color: #BCBCBC;
+    opacity: 0.7;
+    font-size: 14px;
+    font-weight: bold;
+    /* letter-spacing: 0.3px; */
+    margin-bottom: 3px;
+}
+
+
+
+.flex-info:hover .icon-btn {
+    opacity: 1;
+}
+
+.flex-info .icons {
+    gap: 40px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.icons i {
+    font-size: 40px;
+    color: rgba(90, 90, 207, 0.945);
+}
+
+.icons i:hover {
+    cursor: pointer;
+}
+
+.h-full {
+    height: 100%;
+}
+
+.icons-div {
+    display: flex;
+    width: 100%;
+    background-color: #fcf8f8e7;
+    padding: 0px 40px;
+    gap: 30px;
+}
+
+.colorBl {
+    /* background-color: #0F0F0F; */
+    color: rgb(255, 255, 255);
+}
+
+.clients-item h1 {
+    width: 100%;
+    font-size: 34px;
+    margin-bottom: 17px;
+    line-height: 1.2;
+    letter-spacing: -1px;
+}
+
+.width-100 {
+    overflow: hidden;
+    width: 100%;
+}
+
+.clients-item p {
+    font-size: 12px;
+    color: #BCBCBC;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.clients-item {
+    position: relative;
+    border-radius: 30px;
+    text-align: center;
+    flex: 1;
+    padding: 42px 30px 42px 30px;
+    background: #FBFBFC;
+}
+
+.clients-item h1 {
+    color: #3C58E3;
+}
+
+.single-icon img {
+    margin-right: 200px;
+}
+
+.info h1 b {
+    font-size: 2.5rem;
+    color: #3C58E3;
+}
+
+.text-center img {
+    width: 100%;
+}
+
+
+@media only screen and (max-width: 1199px) {
+    .flex-div .flex-info {
+        margin: 0px 10px;
+    }
+
+    .flex-div .flex-info img {
+        width: 100% !important;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .home-info h1 {
+        font-size: 25px;
+    }
+
+    .home-info h4 {
+        font-size: 10px;
+    }
+
+    .home-info p {
+        font-size: 12px;
+    }
+
+    .home-card {
+        height: 90%;
+    }
+
+    .flex-info p {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    .together {
+        margin-top: 30px !important;
+        margin-bottom: 40px !important;
+    }
+
+    .menu {
+        display: block imo !important;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .width-100 {
+        flex-direction: column;
+    }
+
+    .home-card {
+        flex-direction: column;
+    }
+
+    .home-img {
+        width: 100%;
+    }
+
+    .projects {
+        flex-direction: column;
+    }
+
+    .info h1 b {
+        font-size: 1.5rem;
+    }
+
+    .home-info h1 {
+        font-size: 20px;
+        padding: 0;
+        margin: 0;
+    }
+
+    .flex-info h4 {
+        font-size: 18px;
+    }
+
+    .icons i {
+        font-size: 20px;
+    }
+
+    .font-width {
+        width: 70%;
+    }
+
+    .margin {
+        margin-top: 30px !important;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .home-info h1 {
+        font-size: 15px;
+    }
+}

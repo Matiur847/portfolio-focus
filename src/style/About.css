@@ -1,0 +1,101 @@
+.self-card {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.self-heading h1 {
+    font-size: 80px;
+}
+
+.sub-container {
+    background-color: #FFFFFF;
+    padding: 20px;
+}
+
+.about p {
+    /* font-size: 16px; */
+    color: rgb(85, 78, 78);
+}
+
+ul li {
+    list-style-type: none;
+}
+
+ul {
+    position: relative;
+}
+
+.experience {
+    padding: 30px;
+    background-color: #FFFFFF;
+}
+
+.experience h3 {
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #0F0F0F;
+    margin-bottom: 23px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.experience h2 {
+    font-size: 18px;
+    color: blueviolet;
+    opacity: 0.9;
+    margin-bottom: 7px;
+}
+
+.experience p {
+    color: #302020;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 12px;
+}
+
+.about-info img {
+    width: 100%;
+}
+
+@media only screen and (max-width: 1199px) {
+
+    .content-center {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .self-heading h1 {
+        font-size: 50px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .about-margin {
+        margin-top: 30px !important;
+    }
+
+    .about-margin-2 {
+        margin-top: 60px !important;
+    }
+
+    .self-heading img {
+        width: calc(100% - 95%);
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .self-heading h1 {
+        font-size: 30px;
+    }
+
+    .card {
+        background-color: blue;
+    }
+
+    .css-1jky8j7-JoyCard-root {
+        min-height: 236px !important;
+        width: 239px !important;
+    }
+}

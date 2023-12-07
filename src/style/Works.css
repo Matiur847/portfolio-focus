@@ -1,0 +1,42 @@
+.work-card-container {
+    background-color: #FFFFFF;
+}
+
+.work-section .self-heading {
+    margin-bottom: 60px;
+}
+
+.css-1lijw7u-JoyCard-root {
+    border: none !important;
+    background-color: #FFFFFF !important;
+    padding: 40px !important;
+    border-radius: 30px !important;
+    box-shadow: 5px 5px 15px rgba(201, 114, 105, 0.308) !important;
+}
+
+.css-155jcbd-JoyCardOverflow-root {
+    background-color: #FFFFFF !important;
+}
+
+.css-vpmu79-JoyCardContent-root {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between;
+}
+
+.work-card:hover .icon-btn {
+    opacity: 1;
+}
+
+.work-card {
+    display: flex !important;
+}
+
+@media only screen and (max-width: 768px) {
+    .work-card {
+        display: flex;
+        margin: 30px 0px;
+        width: 100%;
+        justify-content: center;
+    }
+}
